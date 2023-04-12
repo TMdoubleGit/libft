@@ -6,14 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 14:08:26 by tmichel-          #+#    #+#             */
-/*   Updated: 2023/01/18 16:47:00 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:27:26 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <fcntl.h>
-#include <unistd.h>
 
 char	*ft_read(int fd, char *stash)
 {

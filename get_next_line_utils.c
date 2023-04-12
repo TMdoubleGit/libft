@@ -6,12 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 13:51:30 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/12/14 16:21:55 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:27:48 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 int	ft_strlen_gnl(char *str)
 {

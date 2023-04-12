@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 18:11:08 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/15 11:23:28 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 15:38:41 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 int	ft_atoi(const char *nptr)
 {

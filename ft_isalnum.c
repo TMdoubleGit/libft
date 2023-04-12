@@ -6,7 +6,7 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:46:36 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/15 18:21:41 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 15:38:51 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-/*int	main()
-{
-	int	c;
-	c = 'a';
-
-	printf("%d\n", ft_isalnum(c));
-	printf("%d\n", isalnum(c));
-}*/

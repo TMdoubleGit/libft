@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 11:49:11 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/18 17:57:52 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:26:51 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static int	ft_istrimm(char const *set, char c)
 {
@@ -54,12 +52,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	*(char *)(trimmed + k) = '\0';
 	return ((char *)(trimmed));
 }
-
-/*int	main()
-{
-	char const	*s1 = "||||||       |     kkke eeqqw//ekeeSalut Thomase  eee|";
-	char const	*set = "| ";
-
-	printf("%s\n", ft_strtrim(s1, set));
-	return (0);
-}*/

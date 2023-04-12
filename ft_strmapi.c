@@ -6,20 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 15:00:02 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/20 15:13:57 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:26:21 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
-
-/*char	f(unsigned int n, char c)
-{
-	(void)n;
-	c = c + 1;
-	return (c);
-}*/
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -40,13 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	*(res + i) = '\0';
 	return (res);
 }
-
-/*int	main()
-{
-	char const	*s = "Salut";
-	unsigned int	n = 1;
-	char	c = 'a';
-	printf("%c\n", f(n, c));
-	printf("%s\n", ft_strmapi(s, &f));
-	return (0);
-}*/

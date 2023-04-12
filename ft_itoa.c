@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 10:24:26 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/16 14:58:02 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 15:40:02 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static int	ft_malloc_size(int n)
 {
@@ -66,11 +64,3 @@ char	*ft_itoa(int n)
 	}
 	return (res);
 }
-
-/*int	main()
-{
-	int	n = 001;
-	printf("%d\n", ft_malloc_size(n));
-	printf("%s\n", ft_itoa(n));
-	return (0);
-}*/

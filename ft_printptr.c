@@ -6,12 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 15:17:46 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/12/14 15:49:45 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:24:48 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 int	ft_ptrlen(unsigned long long ptr)
 {

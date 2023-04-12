@@ -6,7 +6,7 @@
 #    By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/15 11:05:17 by tmichel-          #+#    #+#              #
-#    Updated: 2023/02/01 17:13:02 by tmichel-         ###   ########.fr        #
+#    Updated: 2023/04/12 16:30:38 by tmichel-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,6 +57,7 @@ SRCS	= ft_atoi.c\
 		  ft_swap.c\
 		  ft_strcmp.c\
 		  ft_atof.c\
+		  ft_countchar.c\
 
 OBJS		= ${SRCS:.c=.o}
 

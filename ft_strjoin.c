@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 22:27:24 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/20 14:33:42 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:25:43 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 char	*ft_strjoin(char const *s1, const char *s2)
 {
@@ -41,12 +39,3 @@ char	*ft_strjoin(char const *s1, const char *s2)
 	*(new + i + j) = '\0';
 	return (new);
 }
-
-/*int	main()
-{
-	char const	*s1 = "Salut";
-	char const	*s2 = " Thomas";
-
-	printf("%s\n", (char *)ft_strjoin(s1, s2));
-	return (0);
-}*/

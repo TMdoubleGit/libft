@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 14:46:49 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/18 18:20:58 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:25:23 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -30,14 +28,3 @@ char	*ft_strchr(const char *s, int c)
 	return ((char *)s);
 }
 
-/*int	main()
-{
-	const char	*s;
-	int	c;
-
-	s = "tripouille";
-	c = 't' + 256;
-	printf("%p\n", ft_strchr(s, c));
-	printf("%p\n", strchr(s, c));
-	return (0);
-}*/

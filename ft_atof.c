@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 18:11:08 by tmichel-          #+#    #+#             */
-/*   Updated: 2023/02/03 13:48:14 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 15:38:41 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static double	ft_divide(double x, int j)
 {

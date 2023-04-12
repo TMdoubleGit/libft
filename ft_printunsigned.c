@@ -6,12 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 16:13:51 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/12/14 15:49:50 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:24:52 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 int	ft_uintlen(unsigned int n)
 {

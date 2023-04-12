@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 16:42:43 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/11/17 15:21:47 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:26:34 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <string.h>
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
@@ -41,17 +39,4 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*
-int	main()
-{
-	const char	*big;
-	const char	*little;
-	size_t	len;
 
-	big = "oh no not the empty string !";
-	little = "";
-	len = ft_strlen((char *)big);
-	printf("%s\n", ft_strnstr(big, little, len));
-	//printf("%p\n", strnstr(big, little, len));
-	return 0;
-}*/

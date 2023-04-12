@@ -6,13 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 14:13:22 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/12/19 12:08:05 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:25:13 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static size_t	ft_count_words(char const *s, char c)
 {

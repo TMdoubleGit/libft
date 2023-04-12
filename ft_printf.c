@@ -6,12 +6,11 @@
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 12:54:25 by tmichel-          #+#    #+#             */
-/*   Updated: 2022/12/14 15:54:36 by tmichel-         ###   ########.fr       */
+/*   Updated: 2023/04/12 16:24:18 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdarg.h>
 
 int	ft_format(va_list args, const char p)
 {

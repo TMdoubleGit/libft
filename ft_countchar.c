@@ -1,36 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoll.c                                         :+:      :+:    :+:   */
+/*   ft_countchar.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tmichel- <tmichel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/08 18:11:08 by tmichel-          #+#    #+#             */
-/*   Updated: 2023/04/12 15:38:40 by tmichel-         ###   ########.fr       */
+/*   Created: 2023/04/12 15:37:49 by tmichel-          #+#    #+#             */
+/*   Updated: 2023/04/12 16:29:15 by tmichel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long long	ft_atoll(const char *nptr)
+int	ft_countchar(char *str, char c)
 {
-	long long	res;
-	long long	sign;
+	int i;
+	int count;
 
-	res = 0;
-	sign = 1;
-	while (*nptr == 32 || (*nptr >= 9 && *nptr <= 13))
-		nptr++;
-	if (*nptr == '-' || *nptr == '+')
+	i = 0;
+	count = 0;
+	while (str[i])
 	{
-		if (*nptr == '-')
-			sign *= -1;
-		nptr++;
+		if (str[i] == c)
+			count++;
+		i++;
 	}
-	while (*nptr >= '0' && *nptr <= '9')
-	{
-		res = res * 10 + (*nptr - '0');
-		nptr++;
-	}
-	return (res * sign);
+	return (count);
 }
